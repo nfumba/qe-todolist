@@ -86,7 +86,22 @@ Detailed testing phases and methodologies are mentioned below. We will follow al
 
         > Check that no empty forms are created. 
 
-        > There are different feld validations, all the above validations should be checked in a manual or an automated way. 
+        > There are different feld validations, all the above validations should be checked in a manual or an automated way.
+
+ # 5.3.3 API Testing:
+
+Set of procedures to verify the expected functionality, reliability, and security and ensure the correct interaction between backend and frontend. To validate the logic of the build architecture within a short amount of time. Each api test consists of some test actions mentioned below. Further details of API Testing will be covered in API Test Plan  
+
+- Verify the endopoints accordingly 
+    
+- Verify required request headers and their correct values 
+
+    - Add item : POST request
+    - Update item : POST request
+    - Delete item : GET requste
+- Verify response payload Verify correct HTTP status code and response headers 
+
+- Verify expected result and correct application state Verify correct performance sanity
 
 # 5.4. Automation Testing: 
 
